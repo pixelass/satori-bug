@@ -17,6 +17,7 @@ export async function GET() {
           position: "relative",
           display: "flex",
           fontFamily: "hennyPenny",
+          lineHeight: 1.25,
           fontSize: "4rem",
         }}
       >

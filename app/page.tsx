@@ -4,7 +4,7 @@ const hennyPenny = Henny_Penny({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
   return (
-    <main className="flex">
+    <main style={{ display: "flex" }}>
       <div
         style={{
           height: 500,
@@ -13,6 +13,7 @@ export default function Home() {
           display: "flex",
           fontFamily: hennyPenny.style.fontFamily,
           fontSize: "4rem",
+          lineHeight: 1.25,
           outline: "4px solid red",
         }}
       >
