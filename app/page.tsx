@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Henny_Penny } from "next/font/google";
 
 const hennyPenny = Henny_Penny({ subsets: ["latin"], weight: "400" });
@@ -30,7 +29,7 @@ export default function Home() {
           outline: "4px solid red",
         }}
       >
-        <Image src="/og" alt="" height={500} width={500} />
+        <img src="/og" alt="" height={500} width={500} />
       </div>
     </main>
   );
